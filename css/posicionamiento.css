@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    grid-template-columns: 1 fr 3fr;
+    grid-template-areas: 
+        "... header"
+        "nav section"
+        "footer footer";
+}
+
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.main{
+    grid-area: section;
+}
+
+.footer{
+    grid-area: footer;
+}
