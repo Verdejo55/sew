@@ -1,5 +1,5 @@
 body {
-      font: 400 18px Tahoma, sans-serif;
+      font: 400 20px Tahoma, sans-serif;
       line-height: 1.8;
       color: #818181;
       background-color: #f6f6f6;
@@ -11,3 +11,6 @@ h1 {
       padding: 100px 25px;
       text-align: center;     
   }
+img.mediana{
+  width: 100px; height: 100px;
+}
