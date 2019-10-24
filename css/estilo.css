@@ -1,106 +1,14 @@
-/*
-Especificacion=1
-*/
 body {
-      font: 400 15px Arial, sans-serif;
+      font: 400 15px Tahoma, sans-serif;
       line-height: 1.8;
-      color: #000000;
+      color: #818181;
       background-color: #f6f6f6;
   }
-  /*
-  Especificacion=1
-  */
-h1,h2,h3,h4,h5,h6 {
-      font: bold 1.3em Arial, sans-serif;
-      background-color:#EBD600; 
-      color: #003B42;
+h1 {
+      background-color:#FF5733; 
+      color: #fff;
       text-transform: uppercase;
       padding: 100px 25px;
-      text-align: center;  
-      font-size-adjust: 0.5;  
-      margin-top: .5em;
-      margin-bottom: .5em;
-      margin-left: 1em;
-      margin-right: .5em; 
-      padding: 2em;
-      text-transform:uppercase;
+      text-align: center;     
   }
-  /*
-  Especificacion=1
-  */
-  h1{
-    word-spacing: 2em;
-    border: PowderBlue 5px solid;
-    border-radius: 20px;
-  }
-  /*
-  Especificacion=1
-  */
-  h1,h3,h5 {
-    font-stretch: expanded;
-}
-/*
-  Especificacion=1
-  */
-p{
-  text-align: center;  
-  text-justify: inter-word;
-}
-/*
-  Especificacion=1
- */
-h2,h4,h6 {
-  font-style: italic;    
-}
-/*
-Especificacion=1
-*/
-p,table,ul,ol{
-font-family: 'Times New Roman', Times, serif;
-}
-/*
-Especificacion=1
-*/
-p,ul,ol,th,td{
-  font-size: 1em;
-  background-color: #f6f6f6;
-  color: #000000;
-}
-/*
-Especificacion=2
-*/
-p::first-letter { font-size: 3em; }
-/*
-Especificacion=11
-*/
-a:link{
-  border-bottom:1px dotted rgb(12, 228, 84);
-  text-decoration:none;
-}
-/*
-Especificacion=11
-*/
-a:visited{
-  text-decoration-line: underline;
-  text-decoration-color: #EBD600;
-}
-/*
-Especificacion=1
-*/
-em { color: red; } /*Cambiar las columnas para poner em*/ 
-/*
-Especificacion=1
-*/
-table {
-  width: 100%;
-  border: 1px solid #000;
-}
-/*
-Especificacion=1
-*/
-th, td {
-  width: 25%;
-  text-align: left;
-  vertical-align: top;
-  border: 1px solid #000;
-}
+
